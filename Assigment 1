@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Webpage</title>
+</head>
+<body>
+
+    <h1>Eraly Zalel</h1>
+    <h2>Group: SE-2409</h2>
+    <h3>Software Engineering Student</h3>
+
+    <h3>About Me</h3>
+    <p>Hello! My name is Eraly. I am 18 years old and I study Software Engineering at Astana IT University. 
+       I am from Uralsk. I graduated from 
+       <b>West Kazakhstan Regional Specialized School-Lyceum-Boarding School of Information Technologies for Gifted Children</b>.  
+       I am interested in programming, web development, and learning new languages. 
+       Also, I work as a mathematics teacher and help students to improve their skills in math.</p>
+
+    <h2>My Hobbies</h2>
+    <ol>
+        <li>Reading books</li>
+        <li>Listening to music</li>
+        <li>Programming</li>
+        <li>Teaching mathematics</li>
+        <li>Exploring new technologies</li>
+        <li>Learning French</li>
+    </ol>
+
+    <h2>My Favorite Websites</h2>
+    <ul>
+        <li><a href="https://www.faceit.com" target="_blank">Faceit</a></li>
+        <li><a href="https://www.youtube.com" target="_blank">YouTube</a></li>
+        <li><a href="https://www.spotify.com" target="_blank">Spotify</a></li>
+    </ul>
+
+    <h2>My Photo</h2>
+    <img src="20231210_130230.jpg" 
+         alt="My Photo" width="200">
+    <h2>My Classmates and Groupmates</h2>
+
+    <h3>Classmates</h3>
+    <img src="AIN_4775.jpg" 
+    width="400" alt="Classmate 1">
+    <img src="AIN_4775.jpg" 
+    width="400" alt="Classmate 2">
+
+    <h3>Groupmates</h3>
+    <img src="ec195a49-3148-4d07-aea8-663976d5e23e (1).jfif" 
+    width="400" alt="Groupmate 1">
+    <img src="6f8d6d16-2a0e-4882-9c37-ac5524e206d9.jfif"
+     width="200" alt="Groupmate 2">
+
+    <h2>Button</h2>
+    <button>Click Me</button>
+
+    <h2>My Class Schedule</h2>
+    <table border="1">
+        <tr>
+            <th>Subject</th>
+            <th>Day</th>
+            <th>Time</th>
+        </tr>
+        <tr>
+            <td>Operating Systems</td>
+            <td>Monday</td>
+            <td>08:00 - 09:50</td>
+        </tr>
+        <tr>
+            <td>Databases</td>
+            <td>Tuesday</td>
+            <td>10:00 - 11:50</td>
+        </tr>
+        <tr>
+            <td>Computer Networks</td>
+            <td>Wednesday</td>
+            <td>14:00 - 15:50</td>
+        </tr>
+        <tr>
+            <td>Mathematics Lessons (Teaching)</td>
+            <td>Thursday</td>
+            <td>17:00 - 18:30</td>
+        </tr>
+    </table>
+
+    <h2>My Goals</h2>
+    <p>In the future, I want to:</p>
+    <ul>
+        <li>Work as a software engineer in an international IT company</li>
+        <li>Improve my knowledge in Artificial Intelligence</li>
+        <li>Create useful projects for students in Kazakhstan</li>
+    </ul>
+
+    <h2>My Mood Today</h2>
+    <p>I feel very good today 😊🔥📚</p>
+
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:zzh.eraly121206@gmail.com">zzh.eraly121206@gmail.com</a></p>
+    <p>Telegram: <a href="https://t.me/ekosik" target="_blank">@ekosik</a></p>
+
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="color">Favorite Color:</label><br>
+        <input type="color" id="color" name="color"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <footer>
+        <p>© 2025 My First Webpage</p>
+    </footer>
+
+</body>
+</html>
